@@ -1,94 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BSIT Repository</title>
+<style>
+    body {
+        background-color: #111;
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0 15px;
+    }
+    .header {
+        padding: 20px 0;
+    }
+    .header h1 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .subtext {
+        font-size: 14px;
+        color: #cccccc;
+        margin-bottom: 20px;
+    }
+    .profile-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .profile-img {
+        width: 250px;
+        border-radius: 12px;
+    }
+    .box {
+        background-color: #1c1c1c;
+        padding: 18px;
+        margin: 15px 0;
+        border-radius: 10px;
+    }
+    .box h2 {
+        margin-top: 0;
+        color: white;
+        font-size: 20px;
+    }
+    footer {
+        text-align: center;
+        padding: 15px;
+        color: #ccc;
+        margin-top: 20px;
+        background-color: #1a1a1a;
+    }
+</style>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #121212;
-            color: white;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 90%;
-            max-width: 700px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            font-size: 25px;
-            margin-top: 20px;
-        }
-        .subtitle {
-            text-align: center;
-            color: #ccc;
-            margin-bottom: 20px;
-        }
-        .section {
-            background: #1e1e1e;
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 15px;
-        }
-        img {
-            display: block;
-            margin: auto;
-            width: 150px;
-            height: 150px;
-            border-radius: 100%;
-            border: 4px solid #ff4f8b;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            color: #aaa;
-            margin-top: 20px;
-        }
-    </style>
-</head>
+<div class="header">
+    <h1>AVANCEÑA_JUSTINECARL_WEB101_22011</h1>
+    <div class="subtext">BSIT • Bestlink College of the Philippines</div>
+</div>
 
-<body>
+<div class="profile-container">
+    <!-- Your updated image code -->
+    <img src="profile.jpg" alt="Justine Carl Avanceña" class="profile-img">
+</div>
 
-<div class="container">
+<div class="box">
+    <h2>About This Repository</h2>
+    <p>This page is a personal repository for my BSIT activities such as encoding tasks, class activities, notes, and system-related work. This space is used to organize my school requirements and showcase my skills in basic IT and web development.</p>
+</div>
 
-    <h1>AVANCENA_JUSTINECARL_WEB101</h1>
-    <p class="subtitle">BSIT • Bestlink College of the Philippines</p>
+<div class="box">
+    <h2>Repository Contents</h2>
+    <ul>
+        <li>Class activities</li>
+        <li>Encoding tasks</li>
+        <li>Notes and references</li>
+        <li>Simple web exercises</li>
+        <li>Mini projects</li>
+    </ul>
+</div>
 
-    <img src="your-picture.jpg" alt="Profile Photo">
-
-    <div class="section">
-        <h2>About This Repository</h2>
-        <p>This page is a simple reference for my WEB101 and BSIT activities. This is also a personal repository for my BSIT journey. I use this space to store class tasks, notes, and small projects related to basic IT and web development.</p>
-    </div>
-
-    <div class="section">
-        <h2>Repository Contents</h2>
-        <ul>
-            <li>Class activities</li>
-            <li>Encoding tasks</li>
-            <li>Notes and references</li>
-            <li>Simple web exercises</li>
-            <li>Mini projects</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Developer Information</h2>
-        <p><strong>Name:</strong> Avanceña, Justine Carl B.</p>
-        <p><strong>Course:</strong> BSIT</p>
-        <p><strong>School:</strong> Bestlink College of the Philippines</p>
-    </div>
-
+<div class="box">
+    <h2>Developer Information</h2>
+    <p><b>Name:</b> AVANCEÑA, JUSTINE CARL</p>
+    <p><b>Course:</b> BSIT</p>
+    <p><b>School:</b> Bestlink College of the Philippines</p>
 </div>
 
 <footer>
-    Avanceña, Justine Carl B.
+    AVANCEÑA, JUSTINE CARL
 </footer>
-
-</body>
-</html>
