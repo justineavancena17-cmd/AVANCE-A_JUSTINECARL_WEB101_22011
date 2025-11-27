@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSIT Repository</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 25px;
+            margin-top: 20px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+        .section {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        img {
+            display: block;
+            margin: auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            border: 4px solid #ff4f8b;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: #aaa;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>AVANCENA_JUSTINECARL_WEB101</h1>
+    <p class="subtitle">BSIT • Bestlink College of the Philippines</p>
+
+    <img src="your-picture.jpg" alt="Profile Photo">
+
+    <div class="section">
+        <h2>About This Repository</h2>
+        <p>This page is a simple reference for my WEB101 and BSIT activities. This is also a personal repository for my BSIT journey. I use this space to store class tasks, notes, and small projects related to basic IT and web development.</p>
+    </div>
+
+    <div class="section">
+        <h2>Repository Contents</h2>
+        <ul>
+            <li>Class activities</li>
+            <li>Encoding tasks</li>
+            <li>Notes and references</li>
+            <li>Simple web exercises</li>
+            <li>Mini projects</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Developer Information</h2>
+        <p><strong>Name:</strong> Avanceña, Justine Carl B.</p>
+        <p><strong>Course:</strong> BSIT</p>
+        <p><strong>School:</strong> Bestlink College of the Philippines</p>
+    </div>
+
+</div>
+
+<footer>
+    Avanceña, Justine Carl B.
+</footer>
+
+</body>
+</html>
